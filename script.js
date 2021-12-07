@@ -59,6 +59,18 @@ function checkAdult(age) {
     return age >= 18;
 }
 
+// kis + filterhez
+/*
+const numsList = [12,43,213,86,11];
+const namesArray = ['Bob', 'Sam', 'Joe', 'Dave', 'David'];
+
+console.log(numsList.filter((num) => num > 20));
+
+console.log(numsList.filter((num) => num < 100));
+
+console.log(namesArray.filter((name) => name[0] === 'D'));
+*/
+
 // map
 
 const array1 = [2, 4, 8, 14];
