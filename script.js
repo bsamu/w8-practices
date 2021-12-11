@@ -37,6 +37,20 @@ console.log(nums2);
 
 // callback
 
+function multiply(callback, a, b) {
+    return callback(a, b) * 10
+}
+
+function add(a, b) {
+    return a + b;
+}
+function sub(a, b) {
+    return a - b;
+}
+
+console.log(multiply(add, 4, 5));
+console.log(multiply(sub, 5, 3));
+
 // filter
 
 const ages = [32, 33, 16, 40];
